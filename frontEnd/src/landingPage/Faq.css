@@ -1,0 +1,88 @@
+/*
+---------------------------------------------
+accordions
+---------------------------------------------
+*/
+
+#frequently-question {
+    padding: 0px 0px 100px;
+  }
+  
+  #frequently-question .section-heading p {
+    margin-bottom: 80px;
+  }
+  
+  #frequently-question .left-text {
+    align-self: center !important;
+  }
+  
+  #frequently-question .left-text h5 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+  }
+  
+  #frequently-question .left-text p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  
+  #frequently-question .left-text span {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+    display: block;
+  }
+  
+  #frequently-question .left-text span a {
+    font-weight: 500;
+  }
+  
+  @media (max-width: 765px) {
+    #frequently-question .left-text {
+      margin-bottom: 60px;
+    }
+  }
+  
+  .accordions {
+    background-color: #f7f7f7;
+  }
+  .accordion-head {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+    border-bottom: 1px solid #fff;
+  }
+  @media screen and (min-width: 768px) {
+    .accordion-head {
+      padding: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+  .accordion-head .icon {
+    float: right;
+    transition: transform 200ms ease-in-out;
+  }
+  .accordion-head.is-open {
+    color: #0088e8;
+    border-bottom: none;
+  }
+  .accordion-head.is-open .icon {
+    transform: rotate(45deg);
+  }
+  .accordion-body {
+    overflow: hidden;
+    height: 0;
+    transition: height 300ms ease-in-out;
+    border-bottom: 1px solid #fff;
+  }
+  .accordion-body > .content {
+    padding: 20px;
+    padding-top: 0;
+  }

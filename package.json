@@ -1,0 +1,59 @@
+{
+  "name": "cpproject2020",
+  "version": "1.0.0",
+  "description": "CPProject2020",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dadda97/CPProject2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dadda97/CPProject2020/issues"
+  },
+  "homepage": "https://github.com/Dadda97/CPProject2020#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "casual": "^1.6.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "image-size": "^0.9.3",
+    "mocha": "^8.2.1",
+    "moment": "^2.29.1",
+    "node": "^14.15.1",
+    "node-sass": "^5.0.0",
+    "react-bootstrap": "^1.5.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "node-mocks-http": "^1.10.1",
+    "prettier": "2.2.1",
+    "typescript": "^4.1.3"
+  }
+}

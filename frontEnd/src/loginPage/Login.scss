@@ -1,0 +1,27 @@
+.modal-content  {
+    background-color: #252729;
+          input[type=text],input[type='email'],input[type=password] {
+            -webkit-border-radius: 5px 5px 5px 5px;
+            border-radius: 5px 5px 5px 5px;
+          }
+          
+          input[type=text],input[type='email'],input[type=password]:focus {
+            background-color: #fff;
+            border-bottom: 2px solid #8bc34a;
+          }
+          
+          input[type=text],input[type='email'],input[type=password]:placeholder {
+            color: #cccccc;
+          }
+          .mx-auto{
+            margin-right:inherit!important;
+          }
+          a{
+            color:#8bc34a ;
+          }
+  
+          a:hover {
+            color:#FFF; text-decoration:none;
+          }
+  
+    }

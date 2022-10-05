@@ -1,0 +1,136 @@
+/* 
+---------------------------------------------
+contact
+--------------------------------------------- 
+*/
+
+#contact-us .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow-x: hidden;
+  }
+  
+  #contact-us .col-lg-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  #contact-us h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+  }
+  
+  .contact-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6f8ba4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+  }
+  
+  .contact-text p {
+    margin-bottom: 28px;
+  }
+  
+  .contact-field {
+    background-color: rgba(250, 250, 250, 0.3);
+  }
+  
+  .contact-form {
+    height:500px;
+    padding: 100px;
+    background: rgba(0, 136, 232, 1);
+    background: -moz-linear-gradient(
+      -45deg,
+      rgba(0, 136, 232, 1) 0%,
+      rgba(0, 182, 198, 1) 0%,
+      rgba(0, 136, 232, 1) 100%
+    );
+    background: -webkit-gradient(
+      left top,
+      right bottom,
+      color-stop(0%, rgba(0, 136, 232, 1)),
+      color-stop(0%, rgba(0, 182, 198, 1)),
+      color-stop(100%, rgba(0, 136, 232, 1))
+    );
+    background: -webkit-linear-gradient(
+      -45deg,
+      rgba(0, 136, 232, 1) 0%,
+      rgba(0, 182, 198, 1) 0%,
+      rgba(0, 136, 232, 1) 100%
+    );
+    background: -o-linear-gradient(
+      -45deg,
+      rgba(0, 136, 232, 1) 0%,
+      rgba(0, 182, 198, 1) 0%,
+      rgba(0, 136, 232, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      -45deg,
+      rgba(0, 136, 232, 1) 0%,
+      rgba(0, 182, 198, 1) 0%,
+      rgba(0, 136, 232, 1) 100%
+    );
+    background: linear-gradient(
+      135deg,
+      rgba(0, 136, 232, 1) 0%,
+      rgba(0, 182, 198, 1) 0%,
+      rgba(0, 136, 232, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
+  }
+  
+  @media (max-width: 765px) {
+    .contact-form {
+      padding: 60px;
+      margin-top: -7px;
+    }
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    text-align: center;
+  }
+  
+  .contact-form ::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .contact-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .contact-form ::placeholder {
+    color: #fff;
+    font-size: 18px;
+  }
+  

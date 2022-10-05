@@ -1,0 +1,150 @@
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+  #listStyling{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4) !important;
+    background: linear-gradient(to right, #25c481, #25b7c4)  !important;
+    p,h1,h2,h3,h4,h5,h6,a,input{
+    font-family: 'Poppins', sans-serif;
+  }
+
+    h1{
+      font-size: 30px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    table{
+      width:100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+    }
+  
+    .tbl-content{
+      height:300px;
+      overflow-x:auto;
+      margin-top: 0px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+    th{
+      padding: 20px 15px;
+      text-align: center;
+      font-weight: 800;
+      font-size: 12px;
+      color: rgb(104, 104, 104);
+      text-transform: uppercase;
+      position: sticky;
+      top: 0;
+      background: #8bc34a;
+    }
+    td{
+      padding: 15px;
+      text-align: center;
+      vertical-align:middle;
+      font-weight: 300;
+      font-size: 12px;
+      color: rgb(80, 80, 80);
+      border-bottom: solid 1px rgba(255,255,255,0.1);
+  
+    }
+    .total-result{
+      color:#ccc;
+      text-align: left;
+      padding-left:1rem;
+    }
+    .total-result-span{
+      color:#8bc34a;
+      font-weight:bold;
+    }
+    .date-span{
+      font-size:0.8rem;
+      padding:1rem;
+      color: #ccc;
+    }
+    .title-income-outcome{
+      color:white ; 
+      text-align: left; 
+      padding-left: 1rem;
+    }
+    .right-panel{
+      display: flex ;
+      float: right;
+      text-align: right;
+    }
+    .heading-title{
+      color: #8bc34a ;
+      text-align: left ;
+      padding-left: 1rem ;
+      }
+    .button-print{
+      color:#ccc;
+      font-size: 0.8rem;
+      padding: 1rem;
+    }
+    
+    tr:hover {
+        background-color:rgb(114, 114, 114);
+        td{
+            color:white;
+        }
+        
+      }
+
+      // set max-height for table and make the scrollbar disappear in firefox and edge
+      #printable { 
+        overflow: scroll;
+        max-height: 500px;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    // make the scrollbar disappear in chrome
+      #printable::-webkit-scrollbar {
+        display: none;
+      }
+
+      @media print {
+        #listStyling{
+          width: 100%;
+          height:100%;
+        }
+
+        #printable{
+          display: block;
+          width: auto;
+          height: auto;
+          overflow: visible ;  
+        }
+      }
+
+
+    #frame1{
+        position:fixed;
+        left:0;
+        top:8.3%;
+        width:100%;
+        height:100vh;
+        background:#1aa76c;
+        z-index:2;
+    }
+  
+
+
+        /* for custom scrollbar for webkit browser*/
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+    
+  }
+
+
+
+  

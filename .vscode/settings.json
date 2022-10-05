@@ -1,0 +1,46 @@
+{
+	"editor.codeActionsOnSave": {
+	  "source.fixAll.eslint": true
+	},
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "eu-cdbr-west-03.cleardb.net",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "CPTest",
+			"database": "heroku_5389df5c8ebed85",
+			"username": "b1b4cbde49e3c8",
+			"password": "6bce71a0"
+		},
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "remotemysql.com",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "CPProd",
+			"database": "y1TnEhSqOv",
+			"username": "y1TnEhSqOv",
+			"password": "ezhqHkMRdY"
+		},
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "127.0.0.1",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "CPProject",
+			"database": "cpproject",
+			"username": "cpproject",
+			"password": "cpproject"
+		}
+	],
+}
