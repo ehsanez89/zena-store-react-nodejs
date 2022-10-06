@@ -58,5 +58,5 @@ We appreciate your help, to get more info about contribution, please check the g
 https://github.com/ehsanez89/zena-store-react-nodejs/blob/master/contributing.md
 
 ## License
+By contributing your code, you agree to license your contribution under the terms of the Apache License 2.0. All files are released with the Apache License 2.0.
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
