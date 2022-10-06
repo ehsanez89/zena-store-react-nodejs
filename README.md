@@ -1,6 +1,6 @@
 # Project Title
 
-Zena - we simply share
+Zena - We simply share
 
 ## Description
 
