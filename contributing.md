@@ -44,5 +44,5 @@ All dependencies must be defined in the go.mod file.
 For details on the approved style, check out Effective Go.
 Create tests for all new features.
 The tests must be covered in CI workflow.
-#License
+# License
 By contributing your code, you agree to license your contribution under the terms of the Apache License 2.0. All files are released with the Apache License 2.0.
